@@ -1,34 +1,7 @@
-# Dog Breed Classification using CNN  
-
-## Description of files/folders  
-
-### 1. dog_app.ipynb    
-Jupyter notebook with code showing the creation, training, validation and testing of the CNN models and the dog and human face detectors. Also has the function for applying the code on images. 
-
-### 2. report.html    
-HTML export of the Jupyter notebook.
-
-### 3. report.pdf   
-PDF export of the Jupyter notebook.  
-
-### 4. proposal.pdf   
-PDF file of the Capstone Proposal.   
-
-### 5. project_report.pdf   
-PDF file of the Capstone Project Report.   
-
-### 6. Test_Images   
-The folder containing images that I used at the end of the Jupyter notebook for trying the model on user-supplied images.  
-
-### 7. myapp   
-The folder containing the code for the web app made using Flask. It couldn't be done on the notebook as the connection to the webpage was not working on the notebook. 
+# Dog Breed Classifier Web App using Flask
 
 
-## Instructions for CNN   
-
-The instructions for the creation, training, validation and testing of the CNN models and the dog and human face detectors and the function for trying the trained model on images are present in the Jupyter Notebook named dog_app.ipynb
-
-## Instructions for running the web app   
+## Instructions
 
 ### 1. Download the folder named myapp
 
@@ -93,7 +66,7 @@ Folder required by the Flask web app to store static content like images.
 ### 4. templates  
 Folder required by the Flask web app to store the HTML files of the webpages.  
 
-### 5. model_transfer.pt  
+### 5. model_transfer.pt(needs to be downloaded from this link and placed in the same directory as routes.py)  
 Trained PyTorch model(transfer learning).
 
 ### 6. routes.py  
