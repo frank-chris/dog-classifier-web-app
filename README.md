@@ -66,7 +66,7 @@ Folder required by the Flask web app to store static content like images.
 ### 4. templates  
 Folder required by the Flask web app to store the HTML files of the webpages.  
 
-### 5. model_transfer.pt(needs to be downloaded from this link and placed in the same directory as routes.py)  
+### 5. model_transfer.pt(needs to be downloaded from this [link](https://drive.google.com/file/d/1QjW0AYQ7a4f5LpwO3Ceexnd1g3xmcxiw/view?usp=sharing) and placed in the same directory as routes.py)  
 Trained PyTorch model(transfer learning).
 
 ### 6. routes.py  
